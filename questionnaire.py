@@ -105,8 +105,8 @@ def main():
 
     # print('you have {} right answers out of {}'.format(len([x for x in scores if x]), len(scores)))
     
-    st.title("nothing")
-    st.text("this is nothing")
+    st.title("The Maths Questionnaire")
+    st.text("Random questions are generated every time you ask for a new question. This is basic practice for some maths reflexes you should have.")
 
     def change_question():
         question_text, answer_function, ans_f_info = random.choice(questions)()
